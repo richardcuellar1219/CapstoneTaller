@@ -1,0 +1,52 @@
+###
+GET http://localhost:3000/clients/edit
+
+###
+GET http://localhost:3000/clients
+
+###
+GET http://localhost:3000/api/clients/12
+
+###
+GET http://localhost:3000/api/vehicles/clients
+
+###
+POST http://localhost:3000/api/clients
+Content-Type: application/json
+
+{
+    "nombre": "Julio",
+    "apellidos": "Mo",
+    "direccion": "24 Sevilla",
+    "email": "jul4@mail.com",
+    "dni": "54254365t",
+    "telefono": "653678543",
+    "fechaingreso": "2022-10-12"
+    
+}
+
+
+
+###
+DELETE http://localhost:3000/api/clients/32
+
+###
+
+PUT http://localhost:3000/api/clients
+ 
+
+
+
+
+
+###
+
+PUT http://localhost:3000/api/clients
+Content-Type: application/json
+
+
+###
+DELETE http://localhost:3000/api/clients/
+
+
+
