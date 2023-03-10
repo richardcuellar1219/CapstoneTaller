@@ -10,7 +10,7 @@ const pool = mysql.createPool({
 });
 
 const pool2 = mysql.createPool({
-  uri: "mysql://root:elbajista@127.0.0.1:3306/gestion_taller",
+  uri: "mysql://root:elbajista@127.0.0.1:3306/gestiontaller",
 });
 
 global.db = pool2.promise();

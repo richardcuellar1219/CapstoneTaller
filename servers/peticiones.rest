@@ -5,10 +5,13 @@ GET http://localhost:3000/clients/edit
 GET http://localhost:3000/clients
 
 ###
-GET http://localhost:3000/api/clients/12
+GET http://localhost:3000/api/clients/info/1
 
 ###
-GET http://localhost:3000/api/vehicles/clients
+GET http://localhost:3000/api/clients/52318547X
+
+###
+GET  http://localhost:3000/api/vehicles/albaran
 
 ###
 POST http://localhost:3000/api/clients
@@ -26,7 +29,6 @@ Content-Type: application/json
 }
 
 
-
 ###
 DELETE http://localhost:3000/api/clients/32
 
@@ -36,7 +38,8 @@ PUT http://localhost:3000/api/clients
  
 
 
-
+###
+GET  http://localhost:3000/api/vehicles/servcio
 
 
 ###
@@ -50,3 +53,20 @@ DELETE http://localhost:3000/api/clients/
 
 
 
+###
+POST http://localhost:3000/api/vehicles
+Content-Type: application/json
+
+{
+   "recepcion":"2023/02/02",
+  "marca":"kk",
+  "modelo": "dd",
+  "color":"ss",
+  "matricula":"a",
+  "numerochasis":"qqq",
+ "kilometraje":"xx",
+  "observaciones":"aaa",
+  "imagen":"",
+  "clientes":2
+    
+}
